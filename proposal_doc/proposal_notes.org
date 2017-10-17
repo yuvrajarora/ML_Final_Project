@@ -1,0 +1,76 @@
+#+TITLE: ML Final Project Proposal Notes
+
+* Basic Outline
+*** Abstract
+Several assays have been developed over the last decade to gain further
+insights on genetic transcriptional activity, and changes in the chromatin
+structure. One of them, Assay for Transposase Accessible Chromatin followed by
+Sequencing (ATAC-Seq) is a relatively novel technique that provides a measure
+of accessible sites, genome-wide. Many of those open sites are hypothesised to
+be indicative of transcriptional activity, and overlap with binding sites for
+regulatory proteins known as transcription factors to enhance or inhibit
+transcription of a certain gene. The aim for this project is to utilize machine
+learning as a tool to classify ATAC-Seq peaks that overlap active enhancer
+sites, against those that don’t. +Since this can be considered a "signal"
+independently of the biological context, it would be interesting to also
+explore what features are normally extracted in signal processing for other
+sources or instruments, and apply that to ATAC-Seq signal.+ 
+
+*since these peaks can be thought of as a signal independent of the biological
+context, it would be interesting to explore features extracted using signal
+processing techniques, and apply them to the ATAC-Seq signal.*
+
+*** More background regarding ATAC-Seq
+- why is it "worthwhile" to classify ATAC-seq peaks that overlap active
+  enhancer sites (as opposed to using other assays)
+  - i.e. describe the differences in time/monetary investment over other assays
+
+*** Describe Dataset
+***** Data format
+- file format
+- how to interpret the data
+  - i.e. what are these peaks
+  - describe x, y axis of this data
+- describe how we *label* a peak
+  - when is a label positive, or negative
+
+*** Approaches to solving the problem
+***** Feature Engineering
+- Use domain knoweldge to extract relevant features of the data to be used in
+  traditional supervised learning methods
+- such as neural nets, SVM, etc.
+  
+******* Paragraph
+We propose three approaches to classifying these ATAC-Seq peaks.
+
+*Feature Engineering* - Use domain knowledge from microbiology and signal processing to extract
+salient features from our dataset, which in turn can be used with
+traditional supervised learning methods such as feedforward neural networks,
+SVMs, etc.  Some initial proposed features include:
+   - Peak width/height
+   - Distance between peaks (previous or next)
+   - Coefficients obtained from Fourier or wavelet transforms.
+
+*Peaks as features -* We can treat the peaks as a time varying digital signal and use techniques
+that can take advantage of the temporal nature of our data.  Some proposed
+methods include:
+    - 1D convolutional and recurrent neural networks
+    - Hidden Markov Models
+      
+*Unsupervised Feature Learning* - Instead of handpicking features, use
+unsupervised methods to learn features from unlabeled data which can then be
+used to perform supervised learning on labeled data.  Some proposed methods
+include:
+    - k-means clustering
+    - Autoencoders
+    - Principal component analysis
+
+  
+***** Sequence learning
+- Using the sequential nature of the data to train models such as 1D conv nets,
+  recurrent nets, hidden markov models, etc.
+
+***** Unsupervised methods
+- Using unsupervised methods to learn features/representations of the data
+  which can then be used with traditional ML techniques.
+

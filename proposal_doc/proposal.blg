@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: proposal.aux
+The style file: plain.bst
+Database file #1: proposal.bib
+Warning--to sort, need author or key in igv
+You've used 5 entries,
+            2118 wiz_defined-function locations,
+            529 strings with 4946 characters,
+and the built_in function-call counts, 1942 in all, are:
+= -- 172
+> -- 138
+< -- 0
++ -- 55
+- -- 50
+* -- 174
+:= -- 338
+add.period$ -- 14
+call.type$ -- 5
+change.case$ -- 40
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 50
+empty$ -- 124
+format.name$ -- 50
+if$ -- 380
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 4
+newline$ -- 27
+num.names$ -- 8
+pop$ -- 37
+preamble$ -- 1
+purify$ -- 35
+quote$ -- 0
+skip$ -- 37
+stack$ -- 0
+substring$ -- 95
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 20
+warning$ -- 1
+while$ -- 12
+width$ -- 6
+write$ -- 53
+(There was 1 warning)

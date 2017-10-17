@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+
+\bibitem{igv}
+Integrative genomics viewer.
+\newblock \url{http://software.broadinstitute.org/software/igv/home}.
+
+\bibitem{gro}
+Jose Garcia-Martinez, Augustin Aranda, and Jose~E Perez-Ortin.
+\newblock Genomic run-on evaluates transcription rates for all yeast genes and
+  identifies gene regulatory mechanisms.
+\newblock {\em Molecular Cell}, 15(2):303 -- 313, 2004.
+
+\bibitem{atac}
+Buenrostro JD, Giresi PG, Zaba LC, Chang HY, and Greenleaf WJ.
+\newblock Transposition of native chromatin for multimodal regulatory analysis
+  and personal epigenomics.
+\newblock {\em Nature methods}, 10(12):1213--1218, 2013.
+
+\bibitem{dnase}
+Wang Y-M, Zhou P, Wang L-Y, Li~Z-H, Zhang Y-N, and Zhang Y-X.
+\newblock Correlation between dnase i hypersensitive site distribution and gene
+  expression in hela s3 cells.
+\newblock {\em PLoS ONE}, 7(8), 2012.
+
+\bibitem{macs}
+Yong Zhang, Tao Liu, Clifford~A. Meyer, J{\'e}r{\^o}me Eeckhoute, David~S.
+  Johnson, Bradley~E. Bernstein, Chad Nusbaum, Richard~M. Myers, Myles Brown,
+  Wei Li, and X.~Shirley Liu.
+\newblock Model-based analysis of chip-seq (macs).
+\newblock {\em Genome Biology}, 9(9):R137, Sep 2008.
+
+\end{thebibliography}
